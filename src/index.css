@@ -1,0 +1,137 @@
+/* login */
+
+* {
+  font-family: ubuntu;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.form-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://images.pexels.com/photos/196658/pexels-photo-196658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 50px;
+}
+.login-form {
+  background: #f8fdfe;
+  height: 750px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  gap: 50px;
+}
+.login-form div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: normal;
+}
+label {
+  font-size: 1.2rem;
+  text-align: left;
+}
+input {
+  font-size: 1.2rem;
+  padding: 0.9rem;
+  border-radius: 8px;
+}
+button {
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  padding: 12px 40px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+button:hover {
+  background: rgb(171, 171, 166);
+}
+.tasks {
+  display: flex;
+}
+.displayItems {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.mini-div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mini-div button {
+  padding: 10px 20px;
+}
+/* for homepage */
+/* Style for the task manager container */
+.task-manager-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Style for the input and button */
+.task-manager-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-manager-input input {
+  padding: 15px 30px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1.4rem;
+}
+
+.task-manager-input button {
+  padding: 18px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.task-manager-input button:hover {
+  background-color: #0056b3;
+}
+
+.lists {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #94919111;
+  padding: 12px 50px;
+}
+.lists li {
+  font-size: 1.5rem;
+}
+.lists button {
+  padding: 12px 18px;
+  color: #fff;
+  background: #ec1d1d;
+}
+.logout-btn {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
